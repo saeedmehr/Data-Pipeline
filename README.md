@@ -23,8 +23,8 @@ Run the project with docker
 
 ```bash
 
-docker-compose run app /bin/bash -c "python manage.py createsuperuser"
 docker-compose up
+docker-compose run app /bin/bash -c "python manage.py createsuperuser"
 
 ```
 after this you will have to add user + email + password then you will have to write : 
